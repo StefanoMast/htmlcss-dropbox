@@ -1,0 +1,50 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: antiquewhite;
+}
+
+section {
+    width: 80%;
+    height: 500px;
+    margin: auto;
+}
+
+.section-first {
+    background-color: aqua;
+}
+
+.section-second {
+    background-color: aquamarine;
+}
+
+.section-third {
+    background-color: beige;
+}
+
+.section-fourth {
+    background-color: bisque;
+}
+
+footer {
+    width: 80%;
+    height: 500px;
+    margin: auto;
+}
+
+.footer-top {
+    background-color: blueviolet;
+    height: 150px;
+}
+
+.footer-bottom {
+    background-color: brown;
+    height: 350px;
+}
