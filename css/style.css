@@ -12,7 +12,6 @@ html {
 header {
     width: 100%;
     height: 50px;
-    background-color: antiquewhite;
 }
 
 img {
@@ -27,62 +26,86 @@ img {
 ul li {
     float: left;
     display: inline-block;
+    padding: 1em;
 }
 
-li {
-    padding: 5px 3px;
-}
+/*li {
+    padding: 1em;
+}*/
 
 
 .list-second {
     float: right;
 }
 
-.button {
-    float: right;
-    border: 1px solid black;
-    background-color: blue;
-}
-
 .clearfix::after {
     float: right;
 }
 
+.button {
+    background-color: rgb(33, 33, 248);
+    color: white;
+    padding: 0 1em;
+    margin: 1em 0;
+}
+
 
 section {
-    width: 80%;
-    margin: auto;
+    width: 100%;
+}
+
+.section-first {
+    background-color: rgb(176, 205, 212);
+    height: 600px;
+    padding: 0 calc(100%/7);
 }
 
 h1 {
-    padding: 1.5em 2em 1em;
+    padding: 1.5em 0em 1em;
     text-align: left;
     font-size: 3em;
 }
 .col-text {
     width: 30%;
+    float: left;
 }
 
 .p-first {
-    font-size: 1.1em;
-    padding-left: 5em;
+    font-size: 1.1em;;
 }
 
 
 .col-img {
     width: 70%;
+    float: right;
 }
 
-.section-first {
-    background-color: aqua;
+img {
+    width: 100%;
+    margin-top: -5px;
 }
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.1em;
+    padding: 0.5em 1em;
+}
+
+.down-arrow {
+    font-size: 2.5em;
+    padding: 4em 0;
+}
+
+
+
 
 .section-second {
-    background-color: aquamarine;
+    
 }
 
 .section-third {
-    background-color: beige;
+    
 }
 
 .section-fourth {
