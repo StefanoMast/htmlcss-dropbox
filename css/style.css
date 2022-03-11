@@ -102,7 +102,7 @@ img {
 
 .section-second {
     width: 80%;
-    height: 100vh;
+    height: 1000px;
     margin: 10% 10%;
 }
 
@@ -188,12 +188,39 @@ hr {
      height: 20px;
      border: 1px solid black;
  }
+
 .section-third {
-    
+    width: calc((100%/5*4)/5*4);
+    margin: auto;
+    border: 1px solid black;
+}
+
+img {
+    width: 100%;
+}
+
+.box-partner:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fl {
+    width: 50%;
+    float: left;
+}
+
+.text-partner {
+    width: 45%;
+    margin: 4em auto;
+    border: 1px solid black;
+    float: right;
 }
 
 .section-fourth {
-    background-color: bisque;
+    width: calc((100%/5*4)/5*4);
+    margin: auto;
+    border: 1px solid black;
 }
 
 footer {
