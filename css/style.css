@@ -223,6 +223,21 @@ img {
     border: 1px solid black;
 }
 
+img {
+    width: 100%;
+}
+
+.table-fourth1: {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.img-text1 {
+    width: calc(100%/3);
+    float: left;
+}
+
 footer {
     width: 80%;
     height: 500px;
