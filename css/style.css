@@ -98,10 +98,28 @@ img {
 }
 
 
-
-
 .section-second {
-    
+    width: 80%;
+    margin: 10% 10%;
+}
+
+.container-price {
+    width: 80%;
+    margin: auto;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.col-first {
+    width: calc(100%/3 - 2em);
+    height: 750px;
+    border: 1px solid black;
+}
+
+hr {
+    width: 20%;
 }
 
 .section-third {
