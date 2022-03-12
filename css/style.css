@@ -238,18 +238,98 @@ img {
     float: left;
 }
 
-footer {
-    width: 80%;
-    height: 500px;
-    margin: auto;
+.section-fifth {
+    width: 1200px; 
+    height: 200px;
+    margin: 0 auto;   
+    padding: 20px;
 }
 
-.footer-top {
-    background-color: blueviolet;
-    height: 150px;
+.box-scopri a{
+    color: #0061ff;
 }
 
-.footer-bottom {
-    background-color: brown;
-    height: 350px;
+.section-sixth::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.h-100{
+    height: 100%;
+}
+
+.client-col-left{
+    width: 400px;
+}
+
+.designit{
+    background-color: #a2d39b;
+}
+
+.arizona{
+    background-color: #61082b;
+}
+
+.florida{
+    background-color:#0093ce;
+}
+
+.topps{
+    background-color: #ff1c1c;
+}
+
+.bicyclerelief{
+    background-color: #d5001f;
+}
+
+.hearst{
+    background-color: #b4d0e7;
+}
+
+.lonelyplanet{
+    background-color: #0d2481;
+}
+
+.clearchannel{
+    background-color: #ffd830;
+}
+
+.designit, .arizona, .florida, .topps, .bicyclerelief, .hearst, .lonelyplanet, .clearchannel{
+    width: 200px;
+	height: 180px;  
+    position: relative;
+}
+
+.client-img img{
+    padding: 30px;
+    filter: invert(100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.client-colcentral{
+    width: 719px;
+    height: 360px;
+    background-color: #f5f5f5;
+}
+
+.logo-designit{
+    width: 200px;
+    padding: 40px;
+}
+
+.client-colcentral img{
+    filter: none;
+}
+
+.client-colcentral p{
+    padding: 0 20px;
+}
+
+.client-colright{
+    width: 400px;
+    height: 360px;
 }
