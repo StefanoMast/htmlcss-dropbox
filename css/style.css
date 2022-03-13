@@ -333,3 +333,42 @@ img {
     width: 400px;
     height: 360px;
 }
+
+.section-seventh::after {
+    content:"";
+    display: table;
+    clear: both;
+    height: 300px;
+}
+
+.container-seventh{
+    background-color: rgb(176, 205, 212);
+    width: 50%;
+    height: 300px;
+    float: left;
+
+}
+
+.title-seventh {
+    padding-top: 2em;
+    padding-right: -2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+}
+
+.container-seventh1 {
+    background-color: rgb(176, 205, 212);
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+
+.button-2 {
+    width: 25%;
+    height: 30px;
+    background-color: white;
+    margin: 1em 2em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
