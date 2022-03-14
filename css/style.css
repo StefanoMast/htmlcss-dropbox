@@ -132,9 +132,6 @@ h1 {
     margin: 2em 0;
 }
 
-.mensile .annuale {
-    float:left
-}
 
 .item {
     padding: .5em 0;
@@ -455,7 +452,7 @@ a {
 
 .section-eight {
     width: auto;
-    height: 300px;
+    height: 400px;
     margin: 20px 300px;
     padding: 20px;
 }
@@ -467,17 +464,6 @@ a {
 .section-eight p {
     display: inline-block;
 
-}
-
-.section-eigth p:before {
-    content="";
-    display: table;
-    clear:both;
-}
-
-.section-eigth .fas {
-    float: right;
-    margin-right: 500px;
 }
 
 footer {
