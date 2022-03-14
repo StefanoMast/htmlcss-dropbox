@@ -6,28 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
         <header>
-            <div class="logo-img">
-                <img src="img/logo-small.png" alt="">
-            </div>
-            <div class="list-first">
-                <ul>
-                    <li>Perché Dropbox?</li>
-                    <li>Funzioni</li>
-                    <li>Piani e prezzi</li>
-                </ul>
-            </div>
+            <nav class="menu">
+                <div class="list-first">
+                    
+                    <ul>
+                        <li><a href=""><img src="img/logo-small.png" alt=""></a></li>
+                        <li><a class="active" href="">Dropbox?</a></li>
+                        <li><a  class= "active" href="">Funzioni</a></li>
+                        <li><a class="active" href="">Piani e prezzi</a></li>
+                    </ul>
+                </div>
 
-            <div class="list-second">
-                <ul>
-                    <li>Supporto</li>
-                    <li>Contatta l'ufficio vendite</li>
-                    <li>Accedi</li>
-                    <a href="" class="button">Inizia</a>
-                </ul>
-            </div>
+                <div class="list-second">
+                    <ul>
+                        <li><a class="active" href="">Supporto</a></li>
+                        <li><a class="active" href="">Contatta l'ufficio vendite</a></li>
+                        <li><a class="active" href="">Accedi</a></li>
+                        <li><a href="" class="button-1">Inizia</a></li>
+                    </ul>
+                </div>
+            </nav>
         </header>
     
        
@@ -40,6 +42,7 @@
                             <div class="col col-text">
                                 <p class="p-first">Finalmente tutti i tuoi strumenti , contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
                                 <a href="" class="button btn">Inizia la tua prova gratuita</a>
+                                <br>
                                 <br><span>Annulla in qualsiasi momento</span>
                                 <br><br><span class="down-arrow">&#129047;</span>
                             </div>
@@ -57,96 +60,105 @@
                             <h2>Trova il piano Dropbox Business che fa per te</h2>
                             <br>
                             <div class="option-payment">
-                                <!--<div class="mensile">--><input type="radio" value=""> Fatturazione mensile
-                                </div>
-                                <!--<div class="annuale">--><input type="radio" value=""> Fatturazione annuale
-                                <div> 
+                                <input type="radio" id="monthly" value="" name="plan"> 
+                                <label for="monthly">Fatturazione mensile</label>
+                                
+                                <input type="radio" id="annual" name="plan" value=""> 
+                                <label for="annual">Fatturazione annuale</label>
+                            </div>
+                            
                         </div> 
                         
 
                         <div class="colonne clearfix">  
                             <div class="col col-first">
-                                    <span class="item">Singolo</span>
-                                    <hr>
+                                    <div class="item"><i class="fas fa-user"></i> Singolo</div>
+                                    <hr class="large">
                                     <h3 class="prof">Professional</h3>
                                     <span class="price">19,99 &euro;</span>
                                     <br>
                                     <span class="month">/mese</span>
                                     <br><br>
-                                    <p class="cond">1 Utente</p>
-                                    <p class="cond">3TB di spazio di archiviazione sicuro</p>
-                                    <p class="cond">Funzioni di produttività premium e condivisione file semplice e sicura</p>
+                                    <p class="cond"><i class="fas fa-user"></i> 1 Utente</p>
+                                    <br>
+                                    <p class="cond"><i class="fas fa-folder"></i> 3TB di spazio di archiviazione sicuro</p>
+                                    <br>
+                                    <p class="cond"><i class="fas fa-pencil-alt"></i> Funzioni di produttività premium e condivisione file semplice e sicura</p>
                                     <br>
                                     <a href="" class="button btn buy">Prova gratis per 30 giorni</a>
-                                    <p>oppure<a href="" class="buy"> acquista</a></p>
+                                    <p class="shop">oppure<a href="" class="buy1"> acquista</a></p>
                                     <br>
-                                    <hr>
+                                    <hr class="small">
                                     <p class="main-points">Punti salienti del piano
                                         <ul>
-                                            <li>Invia fino a 100GB con Dropbox Transfer</li>
-                                            <li>Cartelle offline su dispositivi mobili</li>
-                                            <li>Pulizia remota dell'account</li>
-                                            <li>Filigrana documento</li>
-                                            <li>Assistenza prioritaria via mail e chat</li>
+                                            <li><i class="fas fa-check"></i> Invia fino a 100GB con Dropbox Transfer</li>
+                                            <li><i class="fas fa-check"></i> Cartelle offline su dispositivi mobili</li>
+                                            <li><i class="fas fa-check"></i> Pulizia remota dell'account</li>
+                                            <li><i class="fas fa-check"></i> Filigrana documento</li>
+                                            <li><i class="fas fa-check"></i> Assistenza prioritaria via mail e chat</li>
                                         </ul>
                                     </p>
                             </div>
                             <div class="col col-second"> 
-                                    <span class="item">Singolo</span>
-                                    <hr>
-                                    <h3 class="prof">Professional</h3>
+                                    <div class="item"><i class="fas fa-building"></i> Team</div>
+                                    <hr class="large">
+                                    <h3 class="prof">Standard</h3>
                                     <span class="price">19,99 &euro;</span>
                                     <br>
                                     <span class="month">/mese</span>
                                     <br><br>
-                                    <p class="cond">1 Utente</p>
-                                    <p class="cond">3TB di spazio di archiviazione sicuro</p>
-                                    <p class="cond">Funzioni di produttività premium e condivisione file semplice e sicura</p>
+                                    <p class="cond"><i class="fas fa-user-plus"></i> 1 Utente</p>
+                                    <br>
+                                    <p class="cond"><i class="fas fa-folder"></i> 3TB di spazio di archiviazione sicuro</p>
+                                    <br>
+                                    <p class="cond"><i class="fas fa-smile"></i> Funzioni di produttività premium e condivisione file semplice e sicura</p>
                                     <br>
                                     <a href="" class="button btn buy">Prova gratis per 30 giorni</a>
-                                    <p>oppure<a href="" class="buy"> acquista</a></p>
+                                    <p class="shop">oppure<a href="" class="buy1"> acquista</a></p>
                                     <br>
-                                    <hr>
+                                    <hr class="small">
                                     <p class="main-points">Punti salienti del piano 
                                         <ul>
-                                            <li>Invia fino a 100GB con Dropbox Transfer</li>
-                                            <li>Cartelle offline su dispositivi mobili</li>
-                                            <li>Pulizia remota dell'account</li>
-                                            <li>Filigrana documento</li>
-                                            <li>Assistenza prioritaria via mail e chat</li>
+                                            <li><i class="fas fa-check"></i> Invia fino a 100GB con Dropbox Transfer</li>
+                                            <li><i class="fas fa-check"></i> Cartelle offline su dispositivi mobili</li>
+                                            <li><i class="fas fa-check"></i> Pulizia remota dell'account</li>
+                                            <li><i class="fas fa-check"></i> Filigrana documento</li>
+                                            <li><i class="fas fa-check"></i> Assistenza prioritaria via mail e chat</li>
                                         </ul>
                                     <p>                    
                             </div>  
                             </div>
                             <div class="col col-third">
-                                        <span class="item">Singolo</span>
-                                        <hr>
-                                        <h3 class="prof">Professional</h3>
+                                        <div class="item"><i class="fas fa-building"></i> Team</div>
+                                        <hr class="large">
+                                        <h3 class="prof">Advance</h3>
                                         <span class="price">19,99 &euro;</span>
                                         <br>
                                         <span class="month">/mese</span>
                                         <br><br>
-                                        <p class="cond">1 Utente</p>
-                                        <p class="cond">3TB di spazio di archiviazione sicuro</p>
-                                        <p class="cond">Funzioni di produttività premium e condivisione file semplice e sicura</p>
+                                        <p class="cond"><i class="fas fa-user-plus"></i> 1 Utente</p>
+                                        <br>
+                                        <p class="cond"><i class="fas fa-folder"></i> 3TB di spazio di archiviazione sicuro</p>
+                                        <br>
+                                        <p class="cond"><i class="fas fa-pencil-alt"></i> Funzioni di produttività premium e condivisione file semplice e sicura</p>
                                         <br>
                                         <a href="" class="button btn buy">Prova gratis per 30 giorni</a>
-                                        <p>oppure<a href="" class="buy"> acquista</a></p>
+                                        <p class="shop">oppure<a href="" class="buy1"> acquista</a></p>
                                         <br>
-                                        <hr>
+                                        <hr class="small">
                                         <p class="main-points">Punti salienti del piano 
                                             <ul>
-                                                <li>Invia fino a 100GB con Dropbox Transfer</li>
-                                                <li>Cartelle offline su dispositivi mobili</li>
-                                                <li>Pulizia remota dell'account</li>
-                                                <li>Filigrana documento</li>
-                                                <li>Assistenza prioritaria via mail e chat</li>
+                                                <li><i class="fas fa-check"></i> Invia fino a 100GB con Dropbox Transfer</li>
+                                                <li><i class="fas fa-check"></i> Cartelle offline su dispositivi mobili</li>
+                                                <li><i class="fas fa-check"></i> Pulizia remota dell'account</li>
+                                                <li><i class="fas fa-check"></i> Filigrana documento</li>
+                                                <li><i class="fas fa-check"></i> Assistenza prioritaria via mail e chat</li>
                                             </ul>
                                         <p> 
                             </div>
                         <div class="enterprise-section">
                             <div class="title-enterprise">
-                                <div class="team">Team</div>
+                                <div class="team"><i class="fas fa-building"></i> Team</div>
                             </div>
                             <div class="col col-enterprise">
                                 <div class="col col-ent1">
@@ -157,7 +169,7 @@
                                     <span>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</span>
                                 </div>
                                 <div class="col col-ent2">
-                                    <a href="" class="button">Contatta l'ufficio vendite</a>
+                                    <a href="" class="button-3">Contatta l'ufficio vendite</a>
                                 </div>
                             </div>
                         </div>   
