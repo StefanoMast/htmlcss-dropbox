@@ -31,11 +31,6 @@ ul li {
     padding: 1em;
 }
 
-/*li {
-    padding: 1em;
-}*/
-
-
 .list-second {
     float: right;
 }
@@ -111,8 +106,31 @@ img {
     margin: auto;
 }
 
+.mensile {
+    min-width: 30%;
+    height: 40px;
+}
+
+.option-payment::after {
+    content="";
+    display: table;
+    clear: both;
+}
+
+.mensile, .annuale {
+    float:left
+}
+
 h2 {
     font-size: 2em;
+}
+
+.prof, .price, .month, .buy {
+    margin: 1em
+}
+
+.cond {
+    margin-left: 1em;
 }
 
 .col-first {
@@ -145,6 +163,11 @@ hr {
     margin-left: 1.5em;
 }
 
+.buy {
+    text-decoration: none;
+    color: black;
+}
+
 .col-third {
     width: calc(100%/3 - 1em);
     height: 750px;
@@ -174,6 +197,8 @@ hr {
     height: 200px;
     padding: 1em;
     float: left;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .col-ent2 {
@@ -181,6 +206,8 @@ hr {
     height: 200px;
     padding: 1em;
     float: left;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
 }
  .team {
     text-align: center;
@@ -191,11 +218,12 @@ hr {
 
 .section-third {
     width: calc((100%/5*4)/5*4);
-    margin: auto;
+    height: 300px;
+    margin: 150px auto;
 }
 
 img {
-    width: 100%;
+    width: 80%;
 }
 
 .box-partner:after {
@@ -211,7 +239,7 @@ img {
 
 .text-partner {
     width: 45%;
-    margin: 4em auto;
+    margin: auto;
     float: right;
 }
 
@@ -224,7 +252,6 @@ img {
 
 .section-fourth {
     width: calc((100%/5*4)/5*4);
-    height: 800px;
     margin: auto;
 }
 
@@ -245,11 +272,9 @@ img {
     float: left;
 }
 
-.section-fifth {
-    width: calc((100%/5*4)/5*4); 
-    height: 200px;
-    margin: 0 auto;   
-    padding: 20px 0;
+.section-fifth { 
+    width: calc((100%/5*4)/5*4);
+    margin: 100px auto;  
 }
 
 .box-scopri a{
@@ -260,6 +285,11 @@ img {
     content: " ";
     display: table;
     clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 .h-100{
