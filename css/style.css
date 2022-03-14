@@ -487,6 +487,7 @@ footer {
 
 .container-footer {
     width: 80%;
+    margin: auto;
     height: 300px;
 }
 
@@ -497,7 +498,7 @@ footer {
 }
 
 .container-footer-first, .container-footer-second, .container-footer-third, .container-footer-fourth, .container-footer-fifth {
-    margin: 1.8em;
+    margin: 1.5em;
     float: left;
 }
 
@@ -510,7 +511,3 @@ ol li {
     margin: 0 1em;
 }
 
-.language{
-    margin-left: 40px;
-    color: white;
-}
